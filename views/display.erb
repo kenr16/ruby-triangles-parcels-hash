@@ -1,0 +1,13 @@
+<h1>The result of running this input through the triangle tester is:</h1>
+<% if @test_trio.is_triangle?() && @test_trio.is_equilateral?()%>
+<h4>It is equilateral!</h4>
+
+<% elsif @test_trio.is_triangle?() && @test_trio.is_isosceles?() %>
+<h4>It is isosceles!</h4>
+
+<% elsif @test_trio.is_triangle?() && @test_trio.is_scalene?() %>
+<h4>It is scalene!</h4>
+
+<% else %>
+<h4>It is not a triangle</h5>
+<% end %>
