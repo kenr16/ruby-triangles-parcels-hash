@@ -18,6 +18,10 @@ class Triangle
     @side1 == @side2 || @side2 == @side3 || @side3 == @side1
   end
 
+  define_method(:is_scalene?) do
+    @side1 != @side2 && @side2 != @side3 && @side3 != @side1
+  end
+
 
 
 
