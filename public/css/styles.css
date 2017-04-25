@@ -1,0 +1,11 @@
+div {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: blue
+}
+
+.imagelogo {
+  height: 50px;
+  width: 50px;
+}
